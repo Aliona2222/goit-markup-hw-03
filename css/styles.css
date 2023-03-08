@@ -1,0 +1,250 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --primary-text-color: #434455;
+  --heading-text-color: #2e2f42;
+  --secondary-text-color: #ffffff;
+  --light-background-color: #e7e9fc;
+  --dark-background-color: #2e2f42;
+  --accent-background-color: #f4f4fd;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+}
+
+/* Скидання дефолтних стилів  */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* FONT */
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+
+/* HEADER */
+.page-header {
+}
+
+.page-nav {
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.logo-studio-dark {
+  color: var(--heading-text-color);
+}
+
+.logo-studio-light {
+  color: #f4f4fd;
+}
+
+.menu {
+}
+
+.menu-item {
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--heading-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.menu-contacts {
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--pressed-state-color);
+  background-color: var(--pressed-state-color);
+}
+
+/* HERO */
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--secondary-text-color);
+  background: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--pressed-state-color);
+}
+
+/* ABOUT-section */
+
+.section-about {
+}
+
+.list-about {
+}
+
+.item-about {
+}
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-text-color);
+}
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* PRESENTATION-section */
+
+.section-presentation {
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--heading-text-color);
+}
+
+.list-presentation {
+}
+
+.item-presentation {
+}
+
+.img-presentation {
+}
+
+/* TEAM-section */
+.section-team {
+  background-color: var(--accent-background-color);
+}
+
+.list-tem {
+}
+
+.item-team {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.img-team {
+}
+.center-align {
+  text-align: center;
+}
+
+.capitalize-transform {
+  text-transform: capitalize;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.description-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* ============= Page PORTFOLIO ============= */
+
+/* SECTION Portfolio FILTER */
+.section-portfolio {
+}
+
+.list-btn-filter {
+}
+
+.item-filter {
+}
+
+.btn-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background: var(--accent-background-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--pressed-state-color);
+}
+
+/* SECTION Portfolio PROJECTS */
+.list-projects {
+}
+
+.item-project {
+  border: 1px solid #e7e9fc;
+}
+.link-project {
+}
+.img-project {
+}
