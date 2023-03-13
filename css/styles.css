@@ -329,13 +329,12 @@ body {
 .list-btn-filter {
   margin-bottom: 72px;
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   align-items: center;
+  justify-content: center;
 }
 
 .item-filter {
-  flex-basis: calc((100% - 120px) / 5);
 }
 
 .btn-filter {
