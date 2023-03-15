@@ -43,6 +43,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 /* COMMON */
 
 body {
@@ -67,7 +71,7 @@ body {
   letter-spacing: 0.04em;
   border-radius: 4px;
   border: transparent;
-  display: flex;
+  display: block;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
@@ -109,15 +113,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
-  margin-right: 76px;
 }
 
 .logo-studio-dark {
   color: var(--heading-text-color);
+  margin-right: 76px;
 }
 
 .logo-studio-light {
   color: #f4f4fd;
+  margin-right: 0;
 }
 
 .menu {
@@ -182,7 +187,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -293,6 +298,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  padding-right: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -349,13 +355,15 @@ body {
 .btn-filter:focus {
   color: var(--secondary-text-color);
   background-color: var(--pressed-state-color);
+  border-color: transparent;
 }
 
 /*  Portfolio PROJECTS */
 .list-projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .item-project {
